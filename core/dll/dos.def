@@ -1,0 +1,16 @@
+LIBRARY
+EXPORTS
+	DOSBegin
+	DOSEnd
+	DOSMouseBegin
+	DOSMouseEnd
+	DOSMouseRead
+	DOSKeyBegin
+	DOSKeyEnd
+	DOSKeyTest
+	DOSKeyEnableBIOS
+	DOSDivTrapBegin
+	DOSDivTrapEnd
+	DOSEventBegin
+	DOSEventEnd
+	DOSEventWait

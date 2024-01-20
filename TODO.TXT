@@ -1,0 +1,32 @@
+# TODO
+This is a list of ideas / things that would be cool to be implemented
+
+## General work
+- Fix tools compilation
+- Fix the other drivers (softrnd is tested so far)
+
+## Cross-platform bringup
+- Develop/find a program that converts .h to .asm for NASM (h2inc) [this task is the major blocker]
+- Convert all assembly files from MASM to NASM
+- Add support for Linux and MacOSX and begin experimenting on them
+
+## DOS only support
+- Test softrnd and vesa drivers
+- Test general compilation with Open Watcom
+
+## Audio support
+- Attempt to import AIL3 (released as OSS) into the code without breaking AIL code compatibility (prefix will be kept)
+
+## 2D implementation
+
+Importare VFX di Johh Miles in modo coerente (brvfx)
+. Nessun importante API break!
+. Definire un nuovo sistema di accelerazione 2d generico magari ispirandosi ai driver
+Importare SAL di John Miles in modo coerente (brhsm)
+. API break completo essendo interno
+. Solo le cose per finestre ecc spostarle nell'host
+Importare AIL di John Miles in modo coerente (brail)
+. Evitare API break
+---- GameBoy Advance
+Una volta integrato VFX e AIL valutare
+Convertire i file NASM a GAS ARM32 (Thumb ecc)

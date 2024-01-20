@@ -1,0 +1,37 @@
+LIBRARY
+EXPORTS
+;	BrFixedDivP
+	BrFixedAbs
+	BrFixedMul
+	BrFixedMac2
+	BrFixedMac3
+	BrFixedMac4
+	BrFixedSqr
+	BrFixedSqr2
+	BrFixedSqr3
+	BrFixedSqr4
+	BrFixedLength2
+	BrFixedLength3
+	BrFixedLength4
+	BrFixedRLength2
+	BrFixedRLength3
+	BrFixedRLength4
+	BrFixedDiv
+	BrFixedDivF
+	BrFixedDivR
+	BrFixedMulDiv
+	BrFixedMac2Div
+	BrFixedMac3Div
+	BrFixedMac4Div
+	BrFixedRcp
+	BrFixedFMac2
+	BrFixedFMac3
+	BrFixedFMac4
+	BrFixedSin
+	BrFixedCos
+	BrFixedASin
+	BrFixedACos
+	BrFixedATan2
+	BrFixedATan2Fast
+	BrV1dbBeginWrapper_Fixed
+	

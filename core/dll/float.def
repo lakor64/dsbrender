@@ -1,0 +1,3 @@
+LIBRARY
+EXPORTS
+	BrV1dbBeginWrapper_Float

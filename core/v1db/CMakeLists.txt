@@ -1,0 +1,33 @@
+set(SRCS
+    actsupt.c
+    custsupt.c
+    dbsetup.c
+    def_mat.c
+    def_mdl.c
+    def_otab.c
+    enables.c
+    ffhooks.c
+    matsupt.c
+    modrend.c
+    modsupt.c
+    otable.c
+    pick.c
+    prelight.c
+    prepmap.c
+    prepmatl.c
+    prepmesh.c
+    preptab.c
+    regsupt.c
+    render.c
+    v1dbfile.c
+    dbquery.c
+    zsmacro.h
+    horizon.h
+    #qt_trav.c
+    #query.c
+    v1db_ix.h
+    v1db.h
+    v1db_ip.h
+)
+
+br_core_target(NAME brdb SRCS ${SRCS})
